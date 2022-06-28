@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Practica 5</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/berkshire-swash:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <h1>Practica 5 - Formularios</h1>
+</header>
+<nav id="menu_lista">
+  <ul>
+	<li><a href="../index.html">Inicio</a></li>
+    <li><a href="practica_1.html">Practica 1</a></li>
+    <li><a href="practica_2.html">Practica 2</a></li>
+    <li><a href="practica_3.html">Practica 3</a></li>
+    <li><a href="practica_4.html">Practica 4</a></li>
+    <li><a href="practica_5.html">Practica 5</a></li>
+    <li><a href="practica_6.html">Practica 6&nbsp;</a></li>
+  </ul>
+	</nav>
+<main>
+  <section>
+    <h2>Formulario ingreso o autentificación</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis fuga eveniet hic soluta voluptas tempora labore nisi, reprehenderit pariatur ipsum vel qui ullam, quis modi explicabo! Minima rerum at maiores unde veritatis, accusantium iure reprehenderit molestiae vel odit obcaecati incidunt ab pariatur! Vero dolorum ipsam, consequatur dicta sed sapiente soluta.</p>
+    <form action="procesamientos.html" method="get" name="form1" id="form1">
+      
+      <label for="textfield">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      
+      <label for="textfield2">Apellidos:</label>
+      <input type="text" name="apellidos" id="apellidos">
+      <input type="submit" name="submit" id="submit" value="Enviar">
+
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario de entrevista</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis fuga eveniet hic soluta voluptas tempora labore nisi, reprehenderit pariatur ipsum vel qui ullam, quis modi explicabo! Minima rerum at maiores unde veritatis, accusantium iure reprehenderit molestiae vel odit obcaecati incidunt ab pariatur! Vero dolorum ipsam, consequatur dicta sed sapiente soluta.</p>
+    <form action="procesamientos.html" method="get" name="form2" id="form2">
+      <label for="textfield">Nombre:</label>
+      <input name="textfield" type="text" id="textfield" value="Sebastian Castro Torres" maxlength="100">
+<label for="select">País:</label>
+<select name="pais" id="pais">
+  <option value="mx">México</option>
+  <option value="es">España</option>
+  <option value="it">Italia</option>
+  <option value="eu">Estados Unidos</option>
+  <option value="ar">Argentina</option>
+</select>
+
+<table width="200">
+  <label>Genero</label>
+  <tr>
+    <td><label>
+      <input type="radio" name="Genero" value="femenino" id="Genero_0">
+      Femenino</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="Genero" value="masculino" id="Genero_1">
+      Masculino</label></td>
+  </tr>
+</table>
+<table width="200">
+  <label>¿Qué música te gusta?</label>
+  <tr>
+    <td><label>
+      <input type="radio" name="M&uacute;sica" value="rock" id="Muacutesica_0">
+      Rock</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="M&uacute;sica" value="pop" id="Muacutesica_1">
+      Pop</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="M&uacute;sica" value="jazz" id="Muacutesica_2">
+      Jazz</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="M&uacute;sica" value="alternativa" id="Muacutesica_3">
+      Alternativa</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="M&uacute;sica" value="clasica" id="Muacutesica_4">
+      Clásica</label></td>
+  </tr>
+</table>
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+</form>
+</section>
+  <section>
+    <h2>Formulario de comentario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis fuga eveniet hic soluta voluptas tempora labore nisi, reprehenderit pariatur ipsum vel qui ullam, quis modi explicabo! Minima rerum at maiores unde veritatis, accusantium iure reprehenderit molestiae vel odit obcaecati incidunt ab pariatur! Vero dolorum ipsam, consequatur dicta sed sapiente soluta.</p>
+    <form action="procesamientos.html" method="get" name="form3" id="form3">
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+<br><br>
+      <label for="textarea">Comentario:</label>
+      <textarea name="textarea" cols="50" rows="5" maxlength="50" id="textarea">Escribe tu comentario aquí...</textarea>
+		<br><br>
+      <input name="submit3" type="submit" id="submit3" formaction="procesamientos.html" formmethod="POST" value="Enviar">
+    </form>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Jacqueline Ramírez Pérez</h5>
+</footer>
+</body>
+</html>
